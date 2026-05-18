@@ -2,6 +2,10 @@
 
 Projeto Kotlin nativo para Android Studio criado como demonstração didática dos conceitos práticos de métodos de autenticação, desde fatores básicos até protocolos modernos como OAuth 2.0 e OpenID Connect (OIDC). 
 
+# Prof. Dr. Alexandre Garcez Vieira
+# Centro Universitário FAVENI - UniFAVENI
+
+
 A interface de usuário do aplicativo é construída programaticamente no código, garantindo que o projeto seja compacto, focado em lógica e fácil de estudar.
 
 ---
