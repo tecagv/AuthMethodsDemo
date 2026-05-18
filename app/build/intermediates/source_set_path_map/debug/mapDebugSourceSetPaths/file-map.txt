@@ -1,0 +1,7 @@
+br.com.aulagv.authdemo.app-pngs-0 D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\build\generated\res\pngs\debug
+br.com.aulagv.authdemo.app-resValues-1 D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\build\generated\res\resValues\debug
+br.com.aulagv.authdemo.app-packageDebugResources-2 D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+br.com.aulagv.authdemo.app-packageDebugResources-3 D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+br.com.aulagv.authdemo.app-debug-4 D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\build\intermediates\merged_res\debug\mergeDebugResources
+br.com.aulagv.authdemo.app-debug-5 D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\debug\res
+br.com.aulagv.authdemo.app-main-6 D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\res

@@ -1,0 +1,1 @@
+br.com.aulagv.authdemo:style/AppTheme = 0x7f010000

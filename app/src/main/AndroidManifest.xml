@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <application
+        android:allowBackup="true"
+        android:label="Auth Methods Demo"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Redirect URI do exemplo Google OAuth/OIDC.
+                 Para uso real, ajuste AuthConfig.GOOGLE_CLIENT_ID e o scheme abaixo.
+                 Exemplo recomendado para apps instalados:
+                 com.googleusercontent.apps.SEU_CLIENT_ID:/oauth2redirect -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="br.com.aulagv.authdemo" android:host="oauth2redirect" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

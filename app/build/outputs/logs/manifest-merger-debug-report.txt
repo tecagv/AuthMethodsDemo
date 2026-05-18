@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:1:1-31:12
+INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:1:1-31:12
+	package
+		INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:2:5-67
+	android:name
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:2:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:3:5-79
+	android:name
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:3:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:5:5-72
+	android:name
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:5:22-69
+application
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:7:5-30:19
+INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:7:5-30:19
+	android:extractNativeLibs
+		INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:9:9-42
+	android:allowBackup
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:10:9-40
+activity#br.com.aulagv.authdemo.MainActivity
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:11:9-29:20
+	android:exported
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:12:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:14:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:16:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:oauth2redirect+data:scheme:br.com.aulagv.authdemo
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:23:13-28:29
+action#android.intent.action.VIEW
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:25:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:26:17-78
+	android:name
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:26:27-75
+data
+ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:27:17-95
+	android:host
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:27:63-92
+	android:scheme
+		ADDED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:27:23-62
+uses-sdk
+INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml
+INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml

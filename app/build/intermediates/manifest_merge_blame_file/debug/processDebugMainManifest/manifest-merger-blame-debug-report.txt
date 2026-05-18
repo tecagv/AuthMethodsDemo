@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.com.aulagv.authdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:2:5-67
+11-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:2:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:3:5-79
+12-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:3:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:4:5-81
+13-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+14-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:5:5-72
+14-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:5:22-69
+15
+16    <application
+16-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:7:5-30:19
+17        android:allowBackup="true"
+17-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:8:9-35
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:label="Auth Methods Demo"
+20-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:9:9-42
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:10:9-40
+23        <activity
+23-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:11:9-29:20
+24            android:name="br.com.aulagv.authdemo.MainActivity"
+24-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:12:13-41
+25            android:exported="true" >
+25-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:13:13-36
+26            <intent-filter>
+26-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:14:13-17:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:15:17-69
+27-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:15:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:16:17-77
+29-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:16:27-74
+30            </intent-filter>
+31
+32            <!--
+33                 Redirect URI do exemplo Google OAuth/OIDC.
+34                 Para uso real, ajuste AuthConfig.GOOGLE_CLIENT_ID e o scheme abaixo.
+35                 Exemplo recomendado para apps instalados:
+36                 com.googleusercontent.apps.SEU_CLIENT_ID:/oauth2redirect
+37            -->
+38            <intent-filter>
+38-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:23:13-28:29
+39                <action android:name="android.intent.action.VIEW" />
+39-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:24:17-69
+39-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:24:25-66
+40
+41                <category android:name="android.intent.category.DEFAULT" />
+41-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:25:17-76
+41-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:25:27-73
+42                <category android:name="android.intent.category.BROWSABLE" />
+42-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:26:17-78
+42-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:26:27-75
+43
+44                <data
+44-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:27:17-95
+45                    android:host="oauth2redirect"
+45-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:27:63-92
+46                    android:scheme="br.com.aulagv.authdemo" />
+46-->D:\30_03_2026\Documents\FAVENI\Files\AuthMethodsDemo\app\src\main\AndroidManifest.xml:27:23-62
+47            </intent-filter>
+48        </activity>
+49    </application>
+50
+51</manifest>
